@@ -2172,6 +2172,7 @@ textarea.form-input {
 }
 
 .post-classic {
+	height: 100%;
 	width: 300px;
 	max-width: 100%;
 	padding: 37px 15px 15px 37px;
@@ -2452,19 +2453,20 @@ textarea.form-input {
 */
 .product {
 	position: relative;
-	width: 335px;
+	width: 100%;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ffffff;
 	box-shadow: 0 7px 20px rgba(0, 0, 0, 0.15);
-	border-radius: 10px 100px 70px 70px;
-	padding: 30px 10px 40px 20px;
+	border-radius: 10px 50px 10px 50px;
+	padding: 30px 20px ;
+	height: 100%;
 }
 
 @media (min-width: 576px) {
 	.product {
-		padding: 48px 10px 68px 36px;
+		padding: 30px 20px;
 	}
 }
 
@@ -2484,13 +2486,15 @@ h3.product-title {
 }
 
 .product-img {
-	position: absolute;
-	top: -8px;
-	right: -12px;
-	margin: 0;
+	margin-top: 15px;
+	width: 100%;
+	top: -50px;
+	right: 0px;
 	box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-	border-radius: 10em;
-	max-width: 50%;
+	border-radius: 2em;
+	max-width: 100%;
+	height: 200px;
+	object-fit: cover;
 }
 
 @media (min-width: 576px) {
@@ -2505,7 +2509,7 @@ h3.product-title {
 }
 
 .product-price-header {
-	margin-top: 23px;
+	margin-top: 18px;
 	display: flex;
 	align-items: flex-start;
 }
@@ -2518,7 +2522,7 @@ h3.product-title {
 }
 
 .product-price-value {
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: 300;
 	line-height: 1;
 }
@@ -2527,10 +2531,13 @@ h3.product-title {
 	text-transform: uppercase;
 	text-align: right;
 	line-height: 1.1;
+	font-size: 15px;
+	display: none;
+
 }
 
 .product-text {
-	margin-top: 25px;
+	margin-top: 10px;
 }
 
 /*
