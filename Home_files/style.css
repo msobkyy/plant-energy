@@ -2484,7 +2484,11 @@ h3.product-title {
 	color: #000000;
 	font-weight: 700;
 }
+.plan-img{
+	border-radius: 1rem;
+	margin-top: 2rem;
 
+}
 .product-img {
 	margin-top: 15px;
 	width: 100%;
