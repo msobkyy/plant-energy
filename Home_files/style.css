@@ -3145,6 +3145,10 @@ html [class*='section-'].section-bottom-0 {
 	}
 }
 
+.rd-navbar-aside-open-toggle{
+	display: none !important;
+}
+
 /*
 * Backgrounds
 */
@@ -3152,6 +3156,11 @@ html [class*='section-'].section-bottom-0 {
 .bg-gray-700 .brand .brand-logo-dark,
 .bg-primary .brand .brand-logo-dark {
 	display: none;
+}
+
+.brand-logo-dark{
+	-webkit-filter: drop-shadow(2px 3px 3px #0000009e);
+    filter: drop-shadow(2px 3px 3px #0000009e	);
 }
 
 .context-dark .brand .brand-logo-light,
